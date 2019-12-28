@@ -1,0 +1,10 @@
+version: '3.4'
+
+services: 
+  proxy:
+    image: custom_nginx
+    build: .
+    ports: 
+      - "2500:80"
+    volumes: 
+      - 
