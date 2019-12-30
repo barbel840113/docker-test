@@ -1,0 +1,2 @@
+docker run -i -t --volumes-from docker-test_proxy_1   --rm  debian /bin/bash
+docker-compose run <name_of_service> /bin/bash
